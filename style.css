@@ -1,0 +1,236 @@
+/*nav horizental*/
+body{
+    margin-left: 0%;
+}
+.username{
+    background-color: rgb(126,87,194);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3px !important;
+    color: white;
+    position: relative;
+
+    
+}
+
+.username span {
+    position: absolute;
+    top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.maginifier{
+    width:70px;
+    height: 35px;
+    background-color: rgb(249,249,249);
+    border-radius: 2px;
+    position: relative;
+    border: 0.5px solid rgb(223, 218, 218);
+    
+    
+    
+    
+
+}
+
+.maginifier i{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.horizental{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+.nav1{
+    display: flex;
+}
+
+
+
+.nav2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav3{
+    display: flex;
+    justify-content:center;
+    font-family: arial;
+    font-weight: normal;
+    
+}
+
+.item3{
+    margin: 0px 12px;
+}
+
+
+.item3:nth-child(1),.item3:nth-child(2){
+    position:relative;  
+}
+
+
+.item3:nth-child(1) i,.item3:nth-child(2) i{
+    position:absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.item3:nth-child(1){
+    margin-right: 35px;
+    
+}
+
+.item3:nth-child(2){
+    margin-right: 26px;
+}
+
+
+
+
+.nav2 input{
+    width: 500px;
+    height: 33px;   
+    margin-right: 0%;
+    border: 0.5px solid rgb(223, 218, 218);
+    outline-width: 0.1px;
+    
+    
+}
+
+.nav3{
+    margin-right: 25px;
+}
+
+
+.item2:nth-child(3){
+    position:relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(249,249,249);
+    margin-left: 10px;
+    
+}
+
+.item2:nth-child(3) i{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+nav{
+    position: relative;
+}
+
+.nav2{
+    position: absolute;
+    right: 325px;
+}
+
+
+.nav1 span{
+    font-family:arial;
+    font-size:20px;
+}
+
+.nav1{
+    /*margin-left: 60px;*/
+    margin-top: 10px;
+    
+    
+}
+
+.nav1 span{
+    
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 0;
+    
+}
+
+.nav1 i{
+    font-size:25px;
+    
+}
+
+.nav1 i{
+    color:red !important;
+}
+
+
+
+
+/*nav vertucal*/
+.vertical-horizental{
+    display: grid;
+    grid-template-columns: 1fr 18fr;
+    
+} 
+.vertical{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300%;
+    margin-top: 0;   
+}
+
+.vertical div{
+    margin-left: 0%;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    padding-top: 20%;
+    box-sizing: border-box;
+    
+}
+
+.vertical div:nth-child(1):hover{
+   
+    background-color:white !important;
+    
+    
+}
+
+.vertical div:hover{
+    cursor: pointer;
+    background-color:rgb(243, 239, 239)
+    
+    
+}
+
+
+
+.vertical i{
+    font-size: 20px;
+}
+
+
+.vertical div span{
+    font-family: Roboto;
+    font-size: 10px;
+}
+
+
