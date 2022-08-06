@@ -188,12 +188,12 @@ nav{
     
 } 
 .vertical{
-    margin-top: 13px;
+    margin-top: 23px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 300%;
-    margin-top: 0;   
+      
 }
 
 .vertical div{
@@ -207,12 +207,7 @@ nav{
     
 }
 
-.vertical div:nth-child(1):hover{
-   
-    background-color:white !important;
-    
-    
-}
+
 
 .vertical div:hover{
     cursor: pointer;
@@ -231,6 +226,70 @@ nav{
 .vertical div span{
     font-family: Roboto;
     font-size: 10px;
+}
+
+.hamburgermenuicon{
+    text-align: left;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-top: 13px;
+    width: 50px;
+}
+
+.hamburgermenuicon i{
+   font-size: 20px;
+}
+
+
+/*hamburger-menu*/
+.navvertical{
+    display: inline-block;
+}
+
+.hamburger-close{
+    display:none;
+}
+
+.hamburger-open{
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type:none;
+    padding-left: 0%;
+    margin: 0;
+    padding: 10px 0px;
+    border-bottom: 1px solid black;
+    
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+li:hover{
+    background-color:rgb(243, 239, 239) ;
+}
+
+
+li i{
+    font-size: 17px;
+}
+
+
+li span{
+    margin-left: 30px;
+    font-family: Roboto;
+    font-size: 15px;
 }
 
 
