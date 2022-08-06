@@ -259,7 +259,7 @@ ul{
     padding-left: 0%;
     margin: 0;
     padding: 10px 0px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(207, 207, 207);
     
 }
 
@@ -268,8 +268,8 @@ li{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 0px;
-    padding-right: 130px;
+    padding-left: 30px;
+    padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -283,13 +283,59 @@ li:hover{
 
 li i{
     font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    width: 20px;
 }
 
 
 li span{
+    
     margin-left: 30px;
     font-family: Roboto;
     font-size: 15px;
+    display: inline-block;
+    margin-left: 20px;
+    width: 150px;
+    height: 18.5px;
+}
+
+ul li div:nth-child(2){
+    text-align: left;
 }
 
 
+.subscriptiontext{
+    /*text-align: left;*/
+    margin-left: 0;
+    font-family: Roboto;
+    color: rgb(105, 105, 102);
+}
+
+.subscriptiontext2{
+    display: block;
+}
+
+
+li .img{
+    width: 18.5px;
+    height: 18.5px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color:white;
+}
+
+img{
+    width: 100%;
+}
+
+
+body,html{
+    height: 98%;
+}
+
+.hamburger-open{
+    height: 50%;
+    float: left;
+    overflow-y: scroll !important; 
+}
