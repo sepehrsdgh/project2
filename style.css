@@ -330,12 +330,32 @@ img{
 }
 
 
-body,html{
-    height: 98%;
+/*body,html{
+    height:100%
 }
 
 .hamburger-open{
-    height: 50%;
+    height: 800px;
     float: left;
     overflow-y: scroll !important; 
+}
+
+
+.hamburger-open::-webkit-scrollbar-thumb{
+    background-color: red;
+}*/
+
+
+body{
+    
+    
+}
+
+.hamburger-open{
+    
+    height: 100%;
+    float: left;
+    overflow-y:scroll;
+    position:fixed;
+    left: 0; 
 }
