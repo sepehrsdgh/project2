@@ -330,32 +330,41 @@ img{
 }
 
 
-/*body,html{
-    height:100%
-}
-
-.hamburger-open{
-    height: 800px;
-    float: left;
-    overflow-y: scroll !important; 
-}
-
-
-.hamburger-open::-webkit-scrollbar-thumb{
-    background-color: red;
-}*/
 
 
 body{
-    
+ 
+ height: 100%;
+ overflow-y: scroll;   
     
 }
 
-.hamburger-open{
-    
-    height: 100%;
-    float: left;
+.hamburger-open{  
+    height: 88%;
     overflow-y:scroll;
     position:fixed;
-    left: 0; 
+    left: 0;
+    scrollbar-color:red;
+    scrollbar-width:none; 
+}
+
+.hamburger-open:hover{  
+    
+    scrollbar-width:thin;
+    scrollbar-color:rgb(193,193,193) white
+}
+
+
+.viewall{
+    color: rgb(105, 105, 102);
+}
+
+.explore{
+  display: inline-block;
+  
+}
+
+.explore span{
+    margin-left: 0;
+    color:rgb(87, 85, 85) ;
 }
