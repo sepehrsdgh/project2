@@ -51,3 +51,29 @@ function showLess2(){
     }
     document.querySelector("#showmore2").style.display="flex"
 }
+
+
+
+
+
+//hamburger menu open and close
+document.querySelector(".hamburger-open").style.display="none"
+document.querySelector(".hamburger-close").style.display="flex"
+let c=document.querySelector(".hamburger-close")
+let o=document.querySelector(".hamburger-open")
+let i=0
+document.querySelector(".hamburgermenuicon").addEventListener("click",function(){
+    i+=1
+    if(i%2===0){   
+        c.style.display="flex"
+        o.style.display="none"
+        
+    }
+
+    if(o.style.display==="none"&i%2===1){
+    c.style.display="none"
+    o.style.display="block"
+    }
+    
+})
+
