@@ -262,7 +262,7 @@ nav{
     display: block;
 }
 
-ul{
+.hamburger-open ul{
     list-style-type:none;
     padding-left: 0%;
     margin: 0;
@@ -271,7 +271,7 @@ ul{
     
 }
 
-li{
+.hamburger-open li{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -284,12 +284,12 @@ li{
     
 }
 
-li:hover{
+.hamburger-open li:hover{
     background-color:rgb(243, 239, 239) ;
 }
 
 
-li i{
+.hamburger-open li i{
     font-size: 17px;
     display: inline-block;
     text-align: center;
@@ -297,7 +297,7 @@ li i{
 }
 
 
-li span{
+.hamburger-open li span{
     
     margin-left: 30px;
     font-family: Roboto;
@@ -308,7 +308,7 @@ li span{
     height: 18.5px;
 }
 
-ul li div:nth-child(2){
+.hamburger-open ul li div:nth-child(2){
     text-align: left;
 }
 
@@ -325,7 +325,7 @@ ul li div:nth-child(2){
 }
 
 
-li .img{
+.hamburger-open li .img{
     width: 18.5px;
     height: 18.5px;
     border-radius: 50%;
@@ -375,4 +375,123 @@ body{
 .explore span{
     margin-left: 0;
     color:rgb(87, 85, 85) ;
+}
+
+.slider{
+    padding-left: 15px !important;
+}
+
+.slider ul{
+    list-style-type: none;
+    margin-left: 75px;
+    position: fixed;
+    top: 60px;
+    border-top: 1px solid rgb(202, 202, 202);
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-left: 15px !important;
+   
+     
+        
+}
+
+.slider ul li{
+    float:left;
+    padding: 10px 7px;
+    
+    
+}
+
+.slider ul li:nth-child(1){
+    float:left;
+    padding-left: 0px;
+    
+    
+}
+
+.slider ul li div{
+    background-color: rgb(242,242,242); 
+    width: fit-content;
+    padding: 10px 10px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    border: 1px solid rgb(202, 202, 202);
+    transition:background-color 0.3s;
+  
+    
+}
+
+.slider ul li div:hover{
+    background-color: rgb(226, 222, 222);   
+}
+
+
+/*owl*/
+
+.owl-dots{
+    display: none;
+}
+
+.owl-item{
+  width: fit-content !important;
+}
+
+.owl-stage{
+    padding-left: 10px !important;
+    position:relative !important;
+}
+
+.owl-nav{
+    display: block;
+    
+}
+
+
+.owl-prev{
+    position:absolute !important;
+    top:10px;
+    left:8px;
+    font-size: 30px !important;
+    background-color: white !important;
+    padding-bottom: 5px  !important;
+    width: 30px  !important;
+    height: 30px !important;
+    border-radius: 15px;
+    text-align: center;
+}
+.owl-prev span{
+    position: absolute;
+    bottom: 1.5px;
+    left:9px
+}
+
+
+.owl-next{
+    position:absolute !important;
+    top:9px;
+    left:1210px;
+    font-size: 30px !important;
+    background-color: white !important;
+    padding-bottom: 5px  !important;
+    width: 30px  !important;
+    height: 30px !important;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+.owl-next span{
+    position: absolute;
+    bottom: 1.5px;
+    left:10px
+}
+
+
+.firstItem{
+    background-color: black !important;
+    color: white;
+    border: none !important;
 }

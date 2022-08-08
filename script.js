@@ -73,6 +73,7 @@ document.querySelector(".hamburgermenuicon").addEventListener("click",function()
     if(o.style.display==="none"&i%2===1){
     c.style.display="none"
     o.style.display="block"
+    document.querySelector("#home").style.backgroundColor="rgb(193,193,193)"
     }
     
 })
