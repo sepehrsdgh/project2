@@ -50,6 +50,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 
@@ -185,6 +186,7 @@ nav{
 .vertical-horizental{
     display: grid;
     grid-template-columns: 1fr 18fr;
+    
     
 } 
 .vertical{
@@ -353,7 +355,8 @@ body{
     position:fixed;
     left: 0;
     scrollbar-color:red;
-    scrollbar-width:none; 
+    scrollbar-width:none;
+     
 }
 
 .hamburger-open:hover{  
@@ -379,13 +382,14 @@ body{
 
 .slider{
     padding-left: 15px !important;
+    background-color: white;
 }
 
 .slider ul{
     list-style-type: none;
     margin-left: 75px;
-    position: fixed;
-    top: 60px;
+    /*position: fixed;
+    top: 60px;*/
     border-top: 1px solid rgb(202, 202, 202);
     border-bottom: 1px solid rgb(202, 202, 202);
     padding-left: 15px !important;
@@ -430,6 +434,9 @@ body{
 
 
 /*owl*/
+.owl-carousel{
+    margin-bottom: 0px;
+}
 
 .owl-dots{
     display: none;
@@ -442,6 +449,7 @@ body{
 .owl-stage{
     padding-left: 10px !important;
     position:relative !important;
+    background-color: white;
 }
 
 .owl-nav{
@@ -495,3 +503,226 @@ body{
     color: white;
     border: none !important;
 }
+main{
+    margin-left: 85px;
+    margin-top: 0px;
+    background-color: aqua;
+    margin-right: 0%;
+    
+}
+.section1{
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-right: 0%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+/*main*/
+/*section1 video-cover*/
+
+.section1 .items1 .image-container{
+    width: 290px;
+    position: relative;
+}
+
+
+.section1 .items1 .image-container span{
+    font-size: 13px;
+    font-family: Roboto;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 2px 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.section1 .items1 .captions .img-logo img{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.section1 .items1 .captions .caption-top{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.section1 .items1 .captions .caption-top .icon{
+    position: absolute;
+    top: 10px;
+    left:280px;
+}
+
+
+.section1 .items1 .captions .caption-top .captions-text{
+    padding:10px 10px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+
+.caption-bottom pre{
+    font-family: Roboto;
+    font-size: 12px !important;
+    margin: 6px 0px;
+}
+
+.caption-bottom{
+    padding-left: 48px;
+    position: relative;
+    
+}
+
+.caption-bottom i{
+    font-size: 3px;
+    
+    position: absolute;
+    bottom: 5px;
+}
+
+
+
+.section1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+}
+
+
+/*section2 shorts*/
+.section2{
+    border-top: 20px  solid black;
+    border-bottom:20px  solid black ;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    margin: 0px 20px;
+}
+
+.section2 .header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px ;
+}
+
+
+.section2 .header .left{
+    display:flex;
+    margin-left: 10px;
+    
+}
+
+.section2 .header .left div:nth-child(1){
+    margin-right: 10px;
+    
+}
+
+.section2 .header .right{
+    margin-right: 10px;
+    
+}
+.section2 .content{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    column-gap: 15px;
+}
+
+.section2 .content .item{
+    width: 150px !important;
+    margin: 30px 0px;
+    margin-bottom: 15px;
+   
+}
+
+.section2 .content{
+    font-size: 13px !important;
+    line-height: 20px;
+    font-family: Roboto !important;
+}
+
+.section2 .content pre{
+    font-family: Roboto !important;
+    margin-top: 5px;
+    font-size: 14px;
+    color:rgb(226, 222, 222) ;
+    
+}
+
+.section2 .footer{
+    text-align: center;
+}
+
+
+
+/*section 3*/
+.section3 .items1 .image-container{
+    width: 290px;
+    position: relative;
+}
+
+
+.section3 .items1 .image-container span{
+    font-size: 13px;
+    font-family: Roboto;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 2px 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.section3 .items1 .captions .img-logo img{
+    width: 40px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.section3 .items1 .captions .caption-top{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.section3 .items1 .captions .caption-top .icon{
+    position: absolute;
+    top: 10px;
+    left:280px;
+}
+
+
+.section3 .items1 .captions .caption-top .captions-text{
+    padding:10px 10px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 14px;
+
+}
+.section3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+}
+
+
+.section3{
+    margin: 40px 20px;
+    margin-bottom: 60px;
+    padding-bottom: 45px;
+}
+
+
+
+
