@@ -546,8 +546,17 @@ main{
 /*section1 video-cover*/
 
 .section1 .items1 .image-container{
-    width: 290px;
+    width: 270px;
     position: relative;
+    
+}
+
+.section1 .items1{
+    box-sizing: border-box;
+    padding:0px 0px;
+    width: fit-content;
+    
+    
 }
 
 
@@ -567,29 +576,30 @@ main{
     width: 40px;
     height:40px;
     border-radius: 20px;
+    
 }
 
 .section1 .items1 .captions .caption-top{
-    width: 280px;
+    max-width: 270px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
+    
 }
-.section1 .items1 .captions .caption-top .icon{
-    position: absolute;
-    top: 10px;
-    left:280px;
-}
+
 
 
 .section1 .items1 .captions .caption-top .captions-text{
-    padding:10px 10px;
+    padding:2px 10px;
     padding-bottom: 4px;
     box-sizing: border-box;
     font-family: Roboto;
     font-size: 14px;
+    width:270px;
+    margin-left: 0px;
+    
 }
 
 
@@ -687,7 +697,7 @@ main{
 
 /*section 3*/
 .section3 .items1 .image-container{
-    width: 290px;
+    width: 270px;
     position: relative;
 }
 
@@ -711,26 +721,28 @@ main{
 }
 
 .section3 .items1 .captions .caption-top{
-    width: 280px;
+    width: 270px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    
 }
 .section3 .items1 .captions .caption-top .icon{
-    position: absolute;
-    top: 10px;
-    left:280px;
+    
 }
 
 
 .section3 .items1 .captions .caption-top .captions-text{
-    padding:10px 10px;
+    padding:2px 5px;
     padding-bottom: 4px;
     box-sizing: border-box;
     font-family: Roboto;
     font-size: 14px;
+    width:270px;
+    margin-left: 0px;
+    
 
 }
 .section3{
@@ -862,6 +874,16 @@ main{
 
 .section4{
     padding-bottom: 20px;
+}
+
+body{
+    margin-right: 0;
+}
+
+main{
+    /*border: 1px solid black;*/
+    margin-right: 0;
+
 }
 
 

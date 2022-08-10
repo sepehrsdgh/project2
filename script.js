@@ -67,6 +67,23 @@ document.querySelector(".hamburgermenuicon").addEventListener("click",function()
     if(i%2===0){   
         c.style.display="flex"
         o.style.display="none"
+        document.querySelector("main").style.marginLeft="89px"
+        for( let i=0;i<8;i++){
+            document.querySelectorAll(".section1 .image-container")[i].style.width="270px"
+            }
+            for(let i=0;i<8;i++){
+                document.querySelectorAll(".section1 .items1 .captions .caption-top .captions-text")[i].style.width="270px"
+                }
+                for( let i=0;i<4;i++){
+                    document.querySelectorAll(".section3 .image-container")[i].style.width="270px"
+                    }
+                    for( let i=0;i<4;i++){
+                        document.querySelectorAll(".section3 .items1 .captions .caption-top ")[i].style.width="270px"
+                        }
+                
+        // document.querySelector("main").style.transformOrigin="100% 0%"
+        // document.querySelector("main").style.transform="scaleX(1)"
+        
         
     }
 
@@ -74,6 +91,24 @@ document.querySelector(".hamburgermenuicon").addEventListener("click",function()
     c.style.display="none"
     o.style.display="block"
     document.querySelector("#home").style.backgroundColor="rgb(193,193,193)"
+    document.querySelector("main").style.marginLeft="245px"
+    for( let i=0;i<8;i++){
+    document.querySelectorAll(".section1 .image-container")[i].style.width="250px"
+    }
+    for( let i=0;i<8;i++){
+        document.querySelectorAll(".section1 .items1 .captions .caption-top .captions-text")[i].style.width="200px"
+        }
+        for( let i=0;i<4;i++){
+            document.querySelectorAll(".section3 .image-container")[i].style.width="250px"
+            }
+            for( let i=0;i<4;i++){
+                document.querySelectorAll(".section3 .items1 .captions .caption-top .captions-text")[i].style.width="200px"
+                }
+                for( let i=0;i<4;i++){
+                    document.querySelectorAll(".section3 .items1 .captions .caption-top ")[i].style.width="250px"
+                    } 
+    // document.querySelector("main").style.transformOrigin="100% 0%"
+    // document.querySelector("main").style.transform="scaleX(0.87)"
     }
     
 })
