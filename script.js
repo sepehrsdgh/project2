@@ -59,15 +59,17 @@ function showLess2(){
 //hamburger menu open and close
 document.querySelector(".hamburger-open").style.display="none"
 document.querySelector(".hamburger-close").style.display="flex"
+let slidernav=document.querySelector(".slider ul")
 let c=document.querySelector(".hamburger-close")
 let o=document.querySelector(".hamburger-open")
 let i=0
 document.querySelector(".hamburgermenuicon").addEventListener("click",function(){
     i+=1
-    if(i%2===0){   
+    if(i%2===0){
+        slidernav.style.marginLeft="70px"   
         c.style.display="flex"
         o.style.display="none"
-        document.querySelector("main").style.marginLeft="89px"
+        document.querySelector("main").style.marginLeft="70px"
         for( let i=0;i<8;i++){
             document.querySelectorAll(".section1 .image-container")[i].style.width="270px"
             }
@@ -88,6 +90,7 @@ document.querySelector(".hamburgermenuicon").addEventListener("click",function()
     }
 
     if(o.style.display==="none"&i%2===1){
+        slidernav.style.marginLeft="245px"
     c.style.display="none"
     o.style.display="block"
     document.querySelector("#home").style.backgroundColor="rgb(193,193,193)"
@@ -112,4 +115,21 @@ document.querySelector(".hamburgermenuicon").addEventListener("click",function()
     }
     
 })
+
+
+
+let finalItem=document.querySelector(".finalitem")
+finalItem.style.display="none"
+document.querySelector(".footer").addEventListener("click",function(){
+    if(finalItem.style.display==="none"){
+        finalItem.style.display="block"
+    }
+    else{
+        finalItem.style.display="none"
+    }
+})
+
+
+
+/*slider*/
 

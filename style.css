@@ -2,6 +2,7 @@
 body{
     margin-left: 0%;
     margin-bottom: 0%;
+    margin-top: 0;
 }
 
 a{
@@ -55,6 +56,16 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    
+    margin-bottom: 0px;
+    width: 95%;
+    margin-left: 70px;
+    background-color: white;
+    z-index: 1200;
+    margin-top: 0 !important;
+    padding-top: 8px;
+    padding-bottom:9px ;
     
 }
 
@@ -93,7 +104,7 @@ a{
 
 .item3:nth-child(1) i,.item3:nth-child(2) i{
     position:absolute;
-    top: 5%;
+    top: 20px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -195,7 +206,7 @@ nav{
     
 } 
 .vertical{
-    margin-top: 23px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,8 +250,11 @@ nav{
     text-align: left;
     padding-left: 30px;
     box-sizing: border-box;
-    padding-top: 13px;
+    padding-top: 20px;
     width: 50px;
+    position: fixed;
+    
+    
 }
 
 .hamburgermenuicon i{
@@ -256,12 +270,15 @@ nav{
 /*hamburger-menu*/
 .navvertical{
     display: inline-block;
+    
 }
 
 .hamburger-close{
     display:flex;
     position: fixed;
     left: 0%;
+    
+    margin-top: 37px !important;
 }
 
 .hamburger-open{
@@ -361,6 +378,7 @@ body{
     left: 0;
     scrollbar-color:red;
     scrollbar-width:none;
+    margin-top: 30px !important;
      
 }
 
@@ -404,24 +422,34 @@ body{
 }
 
 .slider{
-    padding-left: 15px !important;
+    
     background-color: white;
+    
+    
 }
 
 .slider ul{
     list-style-type: none;
-    margin-left: 75px;
-    /*position: fixed;
-    top: 60px;*/
+    margin-left: 70px;
+    position: fixed;
+    top: 45px;
     border-top: 1px solid rgb(202, 202, 202);
     border-bottom: 1px solid rgb(202, 202, 202);
-    padding-left: 15px !important;
+    padding-left: 5px !important;
+    
+    
+    
+    
+    
+    
+    
    
      
         
 }
 
 .slider ul li{
+    
     float:left;
     padding: 10px 7px;
     
@@ -429,6 +457,7 @@ body{
 }
 
 .slider ul li:nth-child(1){
+    
     float:left;
     padding-left: 0px;
     
@@ -436,6 +465,7 @@ body{
 }
 
 .slider ul li div{
+   
     background-color: rgb(242,242,242); 
     width: fit-content;
     padding: 10px 10px;
@@ -459,6 +489,8 @@ body{
 /*owl*/
 .owl-carousel{
     margin-bottom: 0px;
+    padding-left: px !important;
+    margin-top: 8px;
 }
 
 .owl-dots{
@@ -470,7 +502,9 @@ body{
 }
 
 .owl-stage{
-    padding-left: 10px !important;
+    
+    margin-top: 0px;
+    padding-left: 20px !important;
     position:relative !important;
     background-color: white;
 }
@@ -486,6 +520,7 @@ body{
     top:10px;
     left:8px;
     font-size: 30px !important;
+    
     background-color: white !important;
     padding-bottom: 5px  !important;
     width: 30px  !important;
@@ -501,17 +536,19 @@ body{
 
 
 .owl-next{
-    position:absolute !important;
-    top:9px;
-    left:1210px;
+    position:fixed !important;
+    top:65px;
+    left:1300px;
     font-size: 30px !important;
     background-color: white !important;
-    padding-bottom: 5px  !important;
+    /*padding-bottom: 5px  !important;*/
     width: 30px  !important;
     height: 30px !important;
     border-radius: 15px;
     text-align: center;
     z-index: 100;
+    
+    
 }
 
 .owl-next span{
@@ -527,17 +564,17 @@ body{
     border: none !important;
 }
 main{
-    margin-left: 85px;
-    margin-top: 0px;
+    margin-left: 70px;
+    margin-top: 50px;
     background-color: rgb(249,249,249);
     margin-right: 0%;
     
 }
 .section1{
     margin-left: 30px;
-    margin-top: 0px;
+    margin-top: px;
     margin-right: 0%;
-    padding-top: 30px;
+    padding-top: 45px;
     padding-bottom: 50px;
 }
 
@@ -626,7 +663,8 @@ main{
 
 .section1{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4,auto);
+    column-gap: 10px;
     row-gap: 40px;
 }
 
@@ -669,9 +707,9 @@ main{
 }
 
 .section2 .content .item{
-    width: 150px !important;
     margin: 30px 0px;
     margin-bottom: 15px;
+    
    
 }
 
@@ -761,14 +799,19 @@ main{
 
 
 /*section4*/
+.section4 .container{
+    padding-left: 20px;
+}
 .section4 .content{
-    width: 350px;
+    max-width: 350px !important;
+    min-width: 300px;
     border: 1px solid rgb(226, 222, 222);
     padding: 20px 20px;
     padding-top: 10px;
     padding-left: 0%;
-    margin-left: 20px;
+    margin-right: 0px !important; 
     background-color: white;
+    
 }
 
 .text-box .text-box-top{
@@ -791,7 +834,7 @@ main{
 
 .text-box .text-box-top div:nth-child(1){
     background-color: rgb(184, 169, 41);
-    width: 30px;
+    max-width: 30px;
     height: 30px;
     border-radius: 15px;
     text-align: center;
@@ -868,8 +911,8 @@ main{
 
 .section4 .container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 0px
+    grid-template-columns: repeat(5,auto) !important;
+    column-gap: 10px !important
 }
 
 .section4{
